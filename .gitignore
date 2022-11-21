@@ -6,8 +6,10 @@ coverage
 # production
 build
 prg
+bin
 
 # misc
+.vscode
 .DS_Store
 .env
 old

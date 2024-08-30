@@ -138,7 +138,7 @@ public class WatchView extends Ui.WatchFace {
       dc.drawCircle(x,y,r);
 
       // draw the complication label and value
-      var value = boundingBoxes[i]["value"];
+      var value = boundingBoxes[i]["value"] ? boundingBoxes[i]["value"] : "-";
       var label = boundingBoxes[i]["label"];
       var font = Gfx.FONT_SYSTEM_TINY;
 
